@@ -58,7 +58,36 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|161632616|91047082|26842d35-6c98-4399-bce2-77ab0e85fd20|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|165860531|72648294|ed695762-2cea-470e-9c3f-2eca2ad5984d|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|185000616|83196917|e4ccd929-c80a-4fdf-b00a-7e8abaedb720|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_edge_clearance|143381296|100498665|999c9047-3a44-4aa1-a6a8-966ab50b7aa1|9ae51920-5d20-4872-b3ba-7b9180fd3a13",
+          ""
+        ],
+        [
+          "text_height|120396000|68580000|e14a65fc-8de9-4c27-9198-c100c86fcd81|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_height|120396000|73152000|e4f46f3a-a565-422d-a302-f7e3e7afca69|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "text_height|120396000|76708000|16f6b8b0-0746-4f04-abee-f6ceb9452f2a|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -101,8 +130,8 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -140,7 +169,7 @@
         "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -505,8 +534,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "pos_files": "",
+      "plot": "branches-filter-gerbers/",
+      "pos_files": "./",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
