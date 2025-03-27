@@ -26,7 +26,7 @@ KT-0805W - white
 |---		    |---			|---		|
 |red		|BL-HUF35A-AV-TRB	|		|
 |Orange		|TJ-S2012SW8TGLC0A-A5	|		|
-|Amber		|BL-HJC36G-AV-TRB	|		|
+|Amber		|BL-HJC36G-AV-TRB	|	0605!	|
 |Yellow		|KT-0805Y		|
 |yellow-green	|KT-0805YG		|		|
 |green		|APT2012CGCK		|	|
