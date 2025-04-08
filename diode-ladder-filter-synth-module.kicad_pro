@@ -537,7 +537,7 @@
       "plot": "branches-filter-gerbers/",
       "pos_files": "./",
       "specctra_dsn": "",
-      "step": "",
+      "step": "diode-ladder-filter-synth-module.step",
       "svg": "",
       "vrml": ""
     },

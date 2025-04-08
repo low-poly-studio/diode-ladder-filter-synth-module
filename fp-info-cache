@@ -1,4 +1,4 @@
-21745441109456110
+22641569897808074
 000-edge-connectors-immo
 1-pin-edge-touch-xl
 PCIexpress Bus Edge Connector x1 http://www.ritrontek.com/uploadfile/2016/1026/20161026105231124.pdf#page=70
@@ -139,6 +139,13 @@ SO SOIC 2.54
 0
 0
 0
+000-jumpers-immo
+SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip
+net tie solder jumper bridged
+0
+2
+2
 000-jumpers-immo
 SolderJumper-3-open-high-power
 SMD Solder 3-pad Jumper, 1x1.5mm rounded Pads, 0.3mm gap, open, labeled with numbers
@@ -357,6 +364,13 @@ THT Terminal Block WAGO 236-416 45Degree pitch 5mm size 82.3x14mm^2 drill 1.15mm
 32
 16
 000-screw-terminals-immo
+TerminalBlock_medium_5.008mm
+Terminal Block Phoenix MKDS-1,5-2-5.08, 2 pins, pitch 5.08mm, size 10.2x9.8mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/100425.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix
+THT Terminal Block Phoenix MKDS-1,5-2-5.08 pitch 5.08mm size 10.2x9.8mm^2 drill 1.3mm pad 2.6mm
+0
+2
+2
+000-screw-terminals-immo
 synth-power-termbox-MPT-0,5-4-2.54_1x04_P2.54mm
 Terminal Block Phoenix MPT-0,5-4-2.54, 4 pins, pitch 2.54mm, size 10.6x6.2mm^2, drill diamater 1.1mm, pad diameter 2.2mm, see http://www.mouser.com/ds/2/324/ItemDetail_1725672-916605.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix
 THT Terminal Block Phoenix MPT-0,5-4-2.54 pitch 2.54mm size 10.6x6.2mm^2 drill 1.1mm pad 2.2mm
@@ -377,6 +391,13 @@ THT Terminal Block Phoenix MPT-0,5-2-2.54 pitch 2.54mm size 5.54x6.2mm^2 drill 1
 0
 10
 10
+000-utilities-immo
+net-tie-15A
+Net tie, 2 pin, 0.5mm square SMD pads
+net tie
+0
+2
+2
 000_Capacitors_Immo
 CP_Elec_10x10
 SMD capacitor, aluminum electrolytic, Nichicon, 10.0x10.0mm
@@ -545,6 +566,13 @@ microSD SD molex
 0
 14
 11
+000_Connectors_Immo
+raspbery-pi-pinheader-2x20
+Through hole straight pin header, 2x20, 2.54mm pitch, double rows
+Through hole pin header THT 2x20 2.54mm double row
+0
+40
+40
 000_Diodes_Immo
 1n4148
 DO-41 0.3" PAD SPACING
@@ -1022,6 +1050,13 @@ CreditCard_M3
 0
 0
 000_Modules_Immo
+CreditCard_M3_corrected_size
+
+
+0
+0
+0
+000_Modules_Immo
 ESP32-WROOM-32
 Single 2.4 GHz Wi-Fi and Bluetooth combo chip https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf
 Single 2.4 GHz Wi-Fi and Bluetooth combo  chip
@@ -1064,6 +1099,13 @@ D2PAK DDPAK TO-263 D2PAK-5 TO-263-5 SOT-426
 4
 4
 000_Modules_Immo
+MPU6050-acc-module
+Through hole straight pin header, 2x10, 2.54mm pitch, single row
+uStepper Shield
+0
+8
+8
+000_Modules_Immo
 UOE-PCB-Template-nocuts
 
 
@@ -1105,6 +1147,48 @@ imogen-wren-card-hidden-det
 0
 0
 0
+000_Modules_Immo
+oled-screen-i2c
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
+000_Modules_Immo
+oled-screen-i2c-simple
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
+000_Modules_Immo
+raspberrypi_2_3
+RaspberryPi 2
+CONN
+0
+40
+40
+000_Modules_Immo
+raspberrypi_2_3_full_fab
+RaspberryPi 2
+CONN
+0
+40
+40
+000_Modules_Immo
+raspberrypi_2_3_outline
+RaspberryPi 2
+CONN
+0
+0
+0
+000_Modules_Immo
+uSteppers32-dev-sheild
+Through hole straight pin header, 2x10, 2.54mm pitch, single row
+uStepper Shield
+0
+20
+20
 000_Pin_Headers_Immo
 2-way-select
 Through hole straight pin header, 1x03, 2.54mm pitch, single row
@@ -1119,6 +1203,13 @@ Through hole pin header THT 1x03 2.54mm single row
 0
 3
 3
+000_Pin_Headers_Immo
+PinHeader_1x04_P2.54mm_Vertical
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
 000_Pin_Headers_Immo
 PinHeader_1x10_P2.54mm_Vertical
 Through hole straight pin header, 1x10, 2.54mm pitch, single row
@@ -1140,6 +1231,27 @@ Through hole pin header THT 2x03 2.54mm double row
 0
 6
 6
+000_Pin_Headers_Immo
+i2c-pin-header-A
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
+000_Pin_Headers_Immo
+i2c-pin-header-OLED
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
+000_Pin_Headers_Immo
+servo-PinHeader_1x03_P2.54mm_Vertical
+Through hole straight pin header, 1x03, 2.54mm pitch, single row
+Through hole pin header THT 1x03 2.54mm single row
+0
+3
+3
 000_Resistors_Immo
 16MM_AngleMount
 
@@ -1308,6 +1420,328 @@ mounting hole 3.2mm m3
 0
 9
 1
+Audio_Module
+Reverb_BTDR-1H
+Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
+audio belton reverb
+0
+7
+7
+Audio_Module
+Reverb_BTDR-1V
+Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
+audio belton reverb
+0
+7
+7
+Battery
+BatteryHolder_Bulgin_BX0036_1xC
+Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
+Bulgin BX0036
+0
+2
+2
+Battery
+BatteryHolder_ComfortableElectronic_CH273-2450_1x2450
+Comfortable Electronic CR2450 battery holder, http://www.comf.com.tw/ProductDetail.asp?no=148
+Comfortable Electronic CR2450
+0
+2
+2
+Battery
+BatteryHolder_Eagle_12BH611-GR
+https://eu.mouser.com/datasheet/2/209/EPD-200766-1274481.pdf
+9V Battery Holder
+0
+2
+2
+Battery
+BatteryHolder_Keystone_103_1x20mm
+http://www.keyelco.com/product-pdf.cfm?p=719
+Keystone type 103 battery holder
+0
+2
+2
+Battery
+BatteryHolder_Keystone_104_1x23mm
+http://www.keyelco.com/product-pdf.cfm?p=744
+Keystone type 104 battery holder
+0
+2
+2
+Battery
+BatteryHolder_Keystone_105_1x2430
+http://www.keyelco.com/product-pdf.cfm?p=745
+Keystone type 105 battery holder
+0
+2
+2
+Battery
+BatteryHolder_Keystone_106_1x20mm
+http://www.keyelco.com/product-pdf.cfm?p=720
+Keystone type 106 battery holder
+0
+2
+2
+Battery
+BatteryHolder_Keystone_107_1x23mm
+http://www.keyelco.com/product-pdf.cfm?p=746
+Keystone type 107 battery holder
+0
+2
+2
+Battery
+BatteryHolder_Keystone_500
+Keystone #500, CR1220 battery holder, http://www.keyelco.com/product-pdf.cfm?p=710
+CR1220 battery holder
+0
+2
+2
+Battery
+BatteryHolder_Keystone_1042_1x18650
+Battery holder for 18650 cylindrical cells http://www.keyelco.com/product.cfm/product_id/918
+18650 Keystone 1042 Li-ion
+0
+2
+2
+Battery
+BatteryHolder_Keystone_1057_1x2032
+SMT (Auto-In/Ultra-Low) Holder for 2032 Cell, 33.2 x 23.9mm, 2mm height above PCB, https://www.keyelco.com/userAssets/file/M65p4.pdf
+Keystone type 1057 coin cell holder
+0
+2
+2
+Battery
+BatteryHolder_Keystone_1058_1x2032
+http://www.keyelco.com/product-pdf.cfm?p=14028
+Keystone type 1058 coin cell retainer
+0
+2
+2
+Battery
+BatteryHolder_Keystone_1060_1x2032
+http://www.keyelco.com/product-pdf.cfm?p=726
+CR2032 BR2032 BatteryHolder Battery
+0
+2
+2
+Battery
+BatteryHolder_Keystone_2460_1xAA
+https://www.keyelco.com/product-pdf.cfm?p=1025
+AA battery cell holder
+0
+2
+2
+Battery
+BatteryHolder_Keystone_2462_2xAA
+2xAA cell battery holder, Keystone P/N 2462, https://www.keyelco.com/product-pdf.cfm?p=1027
+AA battery cell holder
+0
+2
+2
+Battery
+BatteryHolder_Keystone_2466_1xAAA
+1xAAA Battery Holder, Keystone, Plastic Case, http://www.keyelco.com/product-pdf.cfm?p=1031
+AAA battery holder Keystone
+0
+2
+2
+Battery
+BatteryHolder_Keystone_2468_2xAAA
+2xAAA cell battery holder, Keystone P/N 2468, http://www.keyelco.com/product-pdf.cfm?p=1033
+AAA battery cell holder
+0
+2
+2
+Battery
+BatteryHolder_Keystone_2479_3xAAA
+Keystone Battery Holder, 2479, Battery Type 3xAAA (Script generated with StandardBox.py) (Keystone Battery Holder, 2479, Battery Type 3xAAA)
+Keystone Battery Holder 2479 Battery Type 3xAAA
+0
+2
+2
+Battery
+BatteryHolder_Keystone_2993
+http://www.keyelco.com/product-pdf.cfm?p=776
+Keystone type 2993 negative battery contact
+0
+1
+1
+Battery
+BatteryHolder_Keystone_2998_1x6.8mm
+www.keyelco.com/product-pdf.cfm?p=763
+Keystone type 2998 battery holder
+0
+3
+2
+Battery
+BatteryHolder_Keystone_3000_1x12mm
+http://www.keyelco.com/product-pdf.cfm?p=777
+Keystone type 3000 coin cell retainer
+0
+3
+2
+Battery
+BatteryHolder_Keystone_3001_1x12mm
+http://www.keyelco.com/product-pdf.cfm?p=778
+Keystone type 3001 coin cell retainer
+0
+3
+2
+Battery
+BatteryHolder_Keystone_3002_1x2032
+https://www.tme.eu/it/Document/a823211ec201a9e209042d155fe22d2b/KEYS2996.pdf
+BR2016 CR2016 DL2016 BR2020 CL2020 BR2025 CR2025 DL2025 DR2032 CR2032 DL2032
+0
+3
+2
+Battery
+BatteryHolder_Keystone_3008_1x2450
+http://www.keyelco.com/product-pdf.cfm?p=786
+Keystone type 3008 coin cell retainer
+0
+3
+2
+Battery
+BatteryHolder_Keystone_3009_1x2450
+http://www.keyelco.com/product-pdf.cfm?p=787
+Keystone type 3009 coin cell retainer
+0
+3
+2
+Battery
+BatteryHolder_Keystone_3034_1x20mm
+Keystone 3034 SMD battery holder for 2020, 2025 and 2032 coincell batteries. http://www.keyelco.com/product-pdf.cfm?p=798
+Keystone type 3034 coin cell retainer
+0
+3
+2
+Battery
+BatteryHolder_LINX_BAT-HLD-012-SMT
+SMT battery holder for CR1216/1220/1225, https://linxtechnologies.com/wp/wp-content/uploads/bat-hld-012-smt.pdf
+battery holder coin cell cr1216 cr1220 cr1225
+0
+3
+2
+Battery
+BatteryHolder_MPD_BA9VPC_1xPP3
+1xPP3 (9V) battery holder, Memory Protection Devices P/N BA9VPC, http://www.memoryprotectiondevices.com/datasheets/BA9VPC-datasheet.pdf
+PP3 Battery Holder BA9VPC 9V
+0
+2
+2
+Battery
+BatteryHolder_MPD_BC2AAPC_2xAA
+2xAA cell battery holder, Memory Protection Devices P/N BC2AAPC, http://www.memoryprotectiondevices.com/datasheets/BC2AAPC-datasheet.pdf
+AA battery cell holder
+0
+2
+2
+Battery
+BatteryHolder_MPD_BC12AAPC_2xAA
+2xAA cell battery holder, Memory Protection Devices P/N BC12AAPC, http://www.memoryprotectiondevices.com/datasheets/BC12AAPC-datasheet.pdf
+AA battery cell holder
+0
+2
+2
+Battery
+BatteryHolder_MPD_BC2003_1x2032
+http://www.memoryprotectiondevices.com/datasheets/BC-2003-datasheet.pdf
+BC2003 CR2032 2032 Battery Holder
+0
+3
+2
+Battery
+BatteryHolder_MPD_BH-18650-PC2
+18650 Battery Holder (http://www.memoryprotectiondevices.com/datasheets/BK-18650-PC2-datasheet.pdf)
+18650 Battery Holder
+0
+2
+2
+Battery
+BatteryHolder_Seiko_MS621F
+Seiko MS621F, https://www.sii.co.jp/en/me/files/2014/02/file_EXTENDED_PRDCT_SPEC_75_FILE_11.jpg
+Seiko MS621F
+0
+2
+2
+Battery
+BatteryHolder_TruPower_BH-331P_3xAA
+Keystone Battery Holder BH-331P Battery Type 3xAA (Script generated with StandardBox.py) (Keystone Battery Holder BH-331P Battery Type 3xAA)
+Battery Holder BH-331P Battery Type 3xAA
+0
+2
+2
+Battery
+Battery_CR1225
+CR1225 battery
+battery CR1225 coin cell
+0
+0
+0
+Battery
+Battery_Panasonic_CR1025-VSK_Vertical_CircularHoles
+Panasonic CR-1025/VSK battery
+battery CR-1025 coin cell vertical
+0
+2
+2
+Battery
+Battery_Panasonic_CR1220-VCN_Vertical_CircularHoles
+Panasonic CR-1220/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.PDF
+battery CR-1220 coin cell vertical
+0
+2
+2
+Battery
+Battery_Panasonic_CR1632-V1AN_Vertical_CircularHoles
+Panasonic CR-1632-V1AN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D464.PDF
+battery CR-1632 coin cell vertical
+0
+2
+2
+Battery
+Battery_Panasonic_CR2025-V1AK_Vertical_CircularHoles
+Panasonic CR-2025/V1AK battery,
+battery CR-2025 coin cell vertical
+0
+2
+2
+Battery
+Battery_Panasonic_CR2032-VS1N_Vertical_CircularHoles
+Panasonic CR-2032/VS1N battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D348.PDF
+battery CR-2032 coin cell vertical
+0
+2
+2
+Battery
+Battery_Panasonic_CR2354-VCN_Vertical_CircularHoles
+Panasonic CR-2354/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D486.PDF
+battery CR-2354/VCN coin cell vertical
+0
+2
+2
+Battery
+Battery_Panasonic_CR2450-VAN_Vertical_CircularHoles
+Panasonic CR-2450/VAN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D492.PDF
+battery CR-2450 coin cell
+0
+2
+2
+Battery
+Battery_Panasonic_CR2477-VCN_Vertical_CircularHoles
+Panasonic CR-2477/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D502.PDF
+battery CR-2477 coin cell vertical
+0
+2
+2
+Battery
+Battery_Panasonic_CR3032-VCN_Vertical_CircularHoles
+Panasonic CR-3032/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D508.PDF
+battery CR-3032 coin cell vertical
+0
+2
+2
 Button_Switch_Keyboard
 SW_Cherry_MX_1.00u_PCB
 Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
@@ -90796,3 +91230,17 @@ low-poly-tree
 0
 0
 0
+raspberry-pi
+raspberrypi2
+RaspberryPi 2
+CONN
+0
+40
+40
+raspberry-pi
+raspberrypi_2_3
+RaspberryPi 2
+CONN
+0
+40
+40
