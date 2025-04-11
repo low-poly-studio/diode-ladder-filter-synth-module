@@ -12775,7 +12775,7 @@
 			(net 5 "/CV1_IN")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "a5de0979-2577-44ad-9758-409ea1964f25")
+			(uuid "86ea9ec1-ec49-485b-a324-40797411c5d9")
 		)
 		(pad "2" thru_hole circle
 			(at 0 0 270)
@@ -12806,7 +12806,7 @@
 			(net 2 "GND")
 			(pinfunction "3")
 			(pintype "passive")
-			(uuid "c3bb9df5-80fc-4683-bebb-df06c30450e5")
+			(uuid "e10c1290-564b-4649-9959-8e2ea789adce")
 		)
 		(embedded_fonts no)
 		(model "${KICAD8_3RD_PARTY}/000_Immo_3D_models/000-alpha-pots/ALPHA-RD901F-40.step"
@@ -19510,7 +19510,7 @@
 			(net 19 "/AUDIO_IN")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "9f887083-4f25-4e4c-8c3c-8adad4d188bb")
+			(uuid "1c6fd6b2-4f78-4451-94c7-b5b28ebfd6f9")
 		)
 		(pad "2" thru_hole circle
 			(at 0 0 270)
@@ -19541,7 +19541,7 @@
 			(net 2 "GND")
 			(pinfunction "3")
 			(pintype "passive")
-			(uuid "095594fd-5e0b-4453-b649-58ab3381fa01")
+			(uuid "acdc0e28-2756-41e1-b624-32b4dddc8346")
 		)
 		(embedded_fonts no)
 		(model "${KICAD8_3RD_PARTY}/000_Immo_3D_models/000-alpha-pots/ALPHA-RD901F-40.step"
@@ -23576,7 +23576,7 @@
 			(net 30 "Net-(U2A--)")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "08708feb-eaa5-4e8d-b2e7-87abc9775396")
+			(uuid "8b29c859-c210-4d1f-9a5b-7270b4016d25")
 		)
 		(pad "2" thru_hole circle
 			(at 0 0 270)
@@ -23607,7 +23607,7 @@
 			(net 32 "Net-(PT4-Pad3)")
 			(pinfunction "3")
 			(pintype "passive")
-			(uuid "a1631525-3d77-497b-8802-bd9c392504ec")
+			(uuid "c7c1f30c-1603-4984-8fbc-45e6f4e44f62")
 		)
 		(embedded_fonts no)
 		(model "${KICAD8_3RD_PARTY}/000_Immo_3D_models/000-alpha-pots/ALPHA-RD901F-40.step"
@@ -24082,7 +24082,7 @@
 			(net 1 "+12V")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "211db3fd-3c9f-43b6-993c-6c6c5765a920")
+			(uuid "749e066a-2993-4afd-8a4f-804a87e7bd3b")
 		)
 		(pad "2" thru_hole circle
 			(at 0 0 270)
@@ -24113,7 +24113,7 @@
 			(net 29 "Net-(PT2-Pad3)")
 			(pinfunction "3")
 			(pintype "passive")
-			(uuid "e6791568-712d-4a1c-8f70-62826d6059d8")
+			(uuid "2b2113c3-0f61-43e1-bfe1-faf31f0d9c64")
 		)
 		(embedded_fonts no)
 		(model "${KICAD8_3RD_PARTY}/000_Immo_3D_models/000-alpha-pots/ALPHA-RD901F-40.step"
