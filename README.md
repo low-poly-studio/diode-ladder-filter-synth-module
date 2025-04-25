@@ -22,9 +22,10 @@ KT-0805W - white
 
 
 ## JLC LED Library
-| Colour 	| MF part 		| Basic? |
+| Colour 	| MF part 		|  JLC part| Basic? |
 |---		    |---			|---		|
 |red		|BL-HUF35A-AV-TRB	|		|
+|orange-red		|ORH-R35A	|	C205444	|
 |Orange		|TJ-S2012SW8TGLC0A-A5	|		|
 |Amber		|BL-HJC36G-AV-TRB	|	0605!	|
 |Yellow		|KT-0805Y		|
